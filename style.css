@@ -29,3 +29,16 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,
 .service-card-content p{margin:0 0 14px}
 .service-card-content .card-link{width:100%}
 @media(max-width:720px){.service-card{padding:0;display:flex;flex-direction:column}.service-photo img{aspect-ratio:16/9}.service-card-content{padding:11px 17px 14px}.service-card-content h3{margin:2px 25px 5px 0}.service-card-content p{margin:0 0 12px}.service-card-content .card-link{margin-top:auto}}
+
+
+/* Mobile click-to-call and consistent service-card rhythm. */
+.mobile-call-bar{display:none}
+@media(max-width:720px){
+  .mobile-call-bar{position:fixed;right:0;bottom:0;left:0;z-index:30;display:flex;min-height:62px;align-items:center;justify-content:space-between;gap:12px;padding:11px 18px calc(11px + env(safe-area-inset-bottom,0px));border-top:2px solid var(--amber);background:var(--navy-deep);color:#fff}
+  .mobile-call-bar span{color:#dce5eb;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+  .mobile-call-bar strong{color:#f2b264;font-size:15px;white-space:nowrap}
+  .mobile-call-bar:hover strong{color:#ffd18e}
+  .service-card-content{min-height:160px}
+  .site-footer{padding-bottom:calc(78px + env(safe-area-inset-bottom,0px))}
+}
+@media(max-width:380px){.mobile-call-bar{padding-inline:14px}.mobile-call-bar strong{font-size:14px}.service-card-content{min-height:178px}}
