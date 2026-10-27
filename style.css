@@ -112,3 +112,12 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,
 /* Reduce only the extra space after the promise before the contact call-to-action. */
 .reviews-section{padding-bottom:34px}
 @media(max-width:720px){.reviews-section{padding-bottom:24px}}
+
+
+/* A compact, readable list of the supplied business credentials on About. */
+.about-why{margin:24px 0;padding:18px 20px;background:var(--paper);border-left:3px solid var(--blue)}
+.about-why h3{margin:0 0 14px;color:var(--navy);font:700 20px/1.25 var(--serif)}
+.about-why-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px 20px;margin:0;padding:0;list-style:none}
+.about-why-list li{position:relative;padding-left:14px;color:var(--ink);font-size:12px;line-height:1.5}
+.about-why-list li::before{position:absolute;top:.55em;left:0;width:5px;height:5px;background:var(--amber);content:""}
+@media(max-width:720px){.about-why{margin:20px 0;padding:16px}.about-why-list{grid-template-columns:1fr;gap:9px}}
