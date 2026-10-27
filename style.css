@@ -72,7 +72,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,
 @media(max-width:720px){.hero-proof{margin-top:8px;font-size:10px}.hero-proof span{padding:0 3px}}
 
 /* Compact icon-led service cards */
-.section-services{background:#f5f7f8}
+.section-services{background:var(--blue-soft)}
 .service-grid{gap:16px}
 .service-card{min-height:214px;padding:20px;overflow:hidden;display:flex;flex-direction:column;background:#fff;border:1px solid var(--line)}
 .service-card:hover{border-color:#91b1c7;box-shadow:0 6px 18px rgba(19,54,83,.08);transform:translateY(-2px)}
@@ -109,3 +109,6 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,
   .service-card-content p{grid-column:2;margin:0;line-height:1.5}
   .card-arrow{grid-column:2;justify-self:end;margin-top:7px}
 }
+/* Reduce only the extra space after the promise before the contact call-to-action. */
+.reviews-section{padding-bottom:34px}
+@media(max-width:720px){.reviews-section{padding-bottom:24px}}
