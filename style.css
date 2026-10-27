@@ -22,7 +22,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,
 .service-card{padding:0;overflow:hidden;display:flex;flex-direction:column;min-height:0}
 .service-photo{display:block;position:relative}
 .service-photo img{display:block;width:100%;aspect-ratio:1.6/1;object-fit:cover;background:#e7edf0}
-.service-photo-note{display:block;padding:5px 13px;background:var(--blue-soft);color:#617481;font-size:9px;line-height:1.35;letter-spacing:.015em}
+
 .service-card .service-number{z-index:1;top:12px;right:12px;padding:4px 7px;background:rgba(255,255,255,.94);color:var(--navy)}
 .service-card-content{display:flex;flex:1;flex-direction:column;padding:12px 18px 15px}
 .service-card-content h3{margin:3px 20px 6px 0}
