@@ -42,3 +42,12 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,
   .site-footer{padding-bottom:calc(78px + env(safe-area-inset-bottom,0px))}
 }
 @media(max-width:380px){.mobile-call-bar{padding-inline:14px}.mobile-call-bar strong{font-size:14px}.service-card-content{min-height:178px}}
+
+
+/* Compact customer promise grouped with the reviews. */
+.review-promise{margin-top:22px;padding:20px 24px;border-left:3px solid var(--blue);background:var(--navy-deep);color:#fff}
+.review-promise .eyebrow{margin-bottom:8px}
+.review-promise blockquote{max-width:900px;margin:0 0 10px;font:italic 18px/1.5 var(--serif)}
+.review-promise>a{color:#d2e3ee;font-size:11px;text-decoration:underline;text-underline-offset:3px}
+.review-promise>a span{color:#f2b264}
+@media(max-width:720px){.review-promise{margin-top:16px;padding:17px}.review-promise blockquote{font-size:16px}}
