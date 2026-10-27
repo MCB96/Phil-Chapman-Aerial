@@ -77,3 +77,9 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,
   .review-card blockquote{font-size:12px}
   .review-promise{margin-top:14px;padding:15px}
 }
+
+
+/* Keep the confirmed credibility details in one quiet line under the hero. */
+.hero-proof{margin:10px 0 0;color:#526b7c;font-size:11px;line-height:1.5}
+.hero-proof span{padding:0 5px;color:var(--blue);font-weight:700}
+@media(max-width:720px){.hero-proof{margin-top:8px;font-size:10px}.hero-proof span{padding:0 3px}}
